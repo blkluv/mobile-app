@@ -97,7 +97,7 @@ function Pricing() {
                 {pricing.actionText && (
                   <div className="w-full">
                     <a
-                      href="/app"
+                      href="https://app.lumeebooth.com/"
                       className="btn btn-primary btn-square no-animation rounded-none w-full text-lg h-auto py-4"
                     >
                       {pricing.actionText}

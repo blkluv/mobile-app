@@ -14,9 +14,9 @@ const templateConfig: TemplateConfig = {
   forceTheme: false,
   // Shows switch to toggle between dark and light modes
   showThemeSwitch: true,
-  appStoreLink: "https://apps.apple.com/us/app/google/id284815942",
+  appStoreLink: "https://app.lumeebooth.com",
   googlePlayLink:
-    "https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox",
+    "https://app.lumeebooth.com/affiliate-registration/",
   footer: {
     legalLinks: {
       termsAndConditions: true,
