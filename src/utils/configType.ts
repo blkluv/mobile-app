@@ -78,15 +78,17 @@ export type TemplateConfig = {
             rewards?: string[] | undefined;
             usersDescription?: string | undefined;
         };
-        testimonials?: {
-            id?: string | undefined;
-            title: string;
-            subtitle?: string | undefined;
-            cards: {
-                name: string;
-                comment: string;
-            }[];
-        } | undefined;
+testimonials?: {
+    id?: string | undefined;
+    title: string;
+    subtitle?: string | undefined;
+    cards: {
+        qrCode: string;
+        company: string;
+        role: string;
+        location: string;
+    }[];
+} | undefined;
         partners?: {
             id?: string | undefined;
             title: string;

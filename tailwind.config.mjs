@@ -33,6 +33,6 @@ export default {
   },
   plugins: [require("daisyui"), require("@tailwindcss/typography")],
   daisyui: {
-    themes: ["dark", config.theme],
+    themes: ["light", config.theme],
   },
 };

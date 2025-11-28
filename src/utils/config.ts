@@ -1,10 +1,10 @@
 import type { TemplateConfig } from "./configType";
 
 const templateConfig: TemplateConfig = {
-  name: "Lorem Ipsum",
+  name: "",
   seo: {
-    title: "Mobile App Landing Template",
-    description: "Mobile App Landing Template",
+    title: "LUMEE BOOTH:Social Network for TikTok UGC Creators",
+    description: "The American TikTok Shop for Creators and Careers",
   },
   // Draws grid behind main container
   backgroundGrid: false,
@@ -51,7 +51,7 @@ const templateConfig: TemplateConfig = {
     id: "app-banner",
     title: "Download Our Mobile App Today!",
     subtitle:
-      "Unlock the full potential of our services with seamless access at your fingertips. Stay connected, informed, and in control wherever you are.",
+      "Turn your cell phone to a LUMEE BOOTH. Stay tapped in, see 100% follower updates in real time with no algorithms.",
     screenshots: [
       "/screenshots/1.webp",
       "/screenshots/2.webp",
@@ -65,34 +65,27 @@ const templateConfig: TemplateConfig = {
     },
     testimonials: {
       id: "testimonials",
-      title: "Testimonials",
-      subtitle: "Check out a few of our customer stories",
+      title: "Apply Now",
+      subtitle: "Scan QR codes to apply with 1-minute video reels",
       cards: [
-        {
-          name: "Alice Johnson",
-          comment:
-            "The service was fantastic! Highly recommended. The team was very professional and attentive to our needs. They went above and beyond to ensure we were satisfied with the results. I will definitely be using their services again in the future.",
-        },
-        {
-          name: "Bob Smith",
-          comment:
-            "Great value for the price. Very satisfied with the overall experience. The product quality is top-notch and the customer service is excellent. I appreciate the prompt responses to my inquiries and the helpful advice provided. Highly recommend.",
-        },
-        {
-          name: "Charlie Brown",
-          comment:
-            "An excellent experience from start to finish. The onboarding process was smooth and the support team was very responsive. I felt valued as a customer and the results exceeded my expectations. I am impressed with the level of detail and care put into their work.",
-        },
-        {
-          name: "Dana White",
-          comment:
-            "Superb customer service and high-quality products. The team demonstrated great expertise and patience throughout the project. They addressed all my concerns and provided valuable insights. The end product was delivered on time and surpassed my expectations.",
-        },
-        {
-          name: "Eve Adams",
-          comment:
-            "I couldn't be happier with the results! The attention to detail and the level of customization provided was outstanding. The team was friendly and professional, making the entire process enjoyable. I highly recommend their services to anyone looking for top-quality work.",
-        },
+      {
+      qrCode: "https://app.lumeebooth.com/wp-content/uploads/2025/11/IMG_3697.png",
+      company: "Open Role",
+      role: "Marketing Manager",
+      location: "Remote"
+      },
+      {
+      qrCode: "https://app.lumeebooth.com/wp-content/uploads/2025/11/IMG_3699.png",
+      company: "TikTok", 
+      role: "TikTok Strategist",
+      location: "Remote"
+      },
+      {
+      qrCode: "https://app.lumeebooth.com/wp-content/uploads/2025/11/IMG_3700.png",
+      company: "TikTok",
+      role: "UGC Content Creator", 
+      location: "Remote"
+      }
       ],
     },
     partners: {
@@ -106,9 +99,9 @@ const templateConfig: TemplateConfig = {
     },
     howItWorks: {
       id: "how-it-works",
-      title: "How it works",
+      title: "How We Work",
       subtitle:
-        "Explore our comprehensive step-by-step guide to understand how our process ensures seamless and effective results",
+        "Explore a step-by-step guide to understand how to turn your phone into a LUMEE BOOTH.",
       steps: [
         {
           title: "Install the App",
@@ -135,42 +128,42 @@ const templateConfig: TemplateConfig = {
           image: "/stock/04.webp",
         },
         {
-          title: "Connect with Others",
+          title: "Help Others Win",
           subtitle:
-            "Start connecting with friends, colleagues, and like-minded individuals to expand your network and collaborate efficiently.",
+            "In the for purpose economy we don't compete, we help others win by leaving TikTok reviews and creating UGC fun ads.",
           image: "/stock/05.webp",
         },
       ],
     },
     features: {
       id: "features",
-      title: "Transform Your Daily Routine",
+      title: "AI Proof Business",
       subtitle:
-        "Elevate your lifestyle with our innovative mobile app, designed for seamless living",
+        "AI-proof social network with verified UGC (User-generated content) analytics. Human connections, not algorithmic manipulation for profit.",
       cards: [
         {
-          title: "Seamless Integration",
+          title: "Proof of Service",
           subtitle:
-            "Connect effortlessly with all your devices, ensuring smooth and efficient workflows across different platforms and applications without any disruptions",
-          icon: "/3D/link-front-color.webp",
+            "We use a TikTok reel to provide proof of service.",
+          icon: "/3D/video-camera-front-color.webp",
         },
         {
-          title: "24/7 Customer Support",
+          title: "Proof of Review",
           subtitle:
-            "Get assistance whenever you need it with our dedicated customer support team, available around the clock to help resolve any issues you may encounter",
-          icon: "/3D/clock-front-color.webp",
+            "TikTok UGC review video as proof of review.",
+          icon: "/3D/mic-front-color.webp",
         },
         {
-          title: "Intuitive Design",
+          title: "Proof of Pay",
           subtitle:
-            "Navigate through our intuitive and easy-to-use interface designed to enhance user experience, making it accessible for users of all skill levels",
-          icon: "/3D/roll-brush-front-color.webp",
+            "Phantom wallet app to provide proof of payments.",
+          icon: "/3D/flash-front-color.webp",
         },
         {
-          title: "Top-Notch Security",
+          title: "Proof of Address",
           subtitle:
-            "Protect your data with our top-notch security protocols, offering robust encryption and real-time monitoring to keep your information safe and secure",
-          icon: "/3D/sheild-front-color.webp",
+            "What3Words app to provide proof of address.",
+          icon: "/3D/map-pin-front-color.webp",
         },
       ],
     },
@@ -179,77 +172,83 @@ const templateConfig: TemplateConfig = {
       title: "Frequently Asked Questions",
       qa: [
         {
-          question: "How can I create an account on your website?",
+          question: "How can I create a LUMEE BOOTH account?",
           answer:
-            "To create an account, click on the 'Sign Up' button located at the top right corner of our homepage. Fill in the required information, including your name, email address, and password. Once you submit the form, you will receive a confirmation email. Click the link in the email to verify your account, and you're all set!",
+            "Sign up for free as a customer or creator using a Google account in less that 60 seconds. You have to choose a plan to be verified as a creator.",
         },
         {
-          question: "What payment methods do you accept?",
+          question: "How long does it take to be verified as a creator?",
           answer:
-            "We accept a variety of payment methods to ensure convenience for our customers. These include major credit cards (Visa, MasterCard, American Express), PayPal, Apple Pay, and Google Pay. For more details, visit our Payments page.",
+            "Currently it takes up to 48 hours to verify your account as a creator after you have signed up and chosen a plan. We review each application to ensure quality and authenticity.",
         },
         {
-          question: "How can I track my order?",
+          question: "How long does it take to receive a TikTok ReelView Mic?",
           answer:
-            "Once your order is shipped, you will receive an email with a tracking number. You can use this tracking number on our website under the 'Track Order' section to see the current status and estimated delivery date of your package.",
+            "Once your verified as an creator within 48 hours, we create your TikTok ReelView Mic within 24 hours. You will receive an email notification once it's ready to use.",
         },
         {
-          question: "What is your return policy?",
+          question: "How do I download a Phantom Wallet App?",
           answer:
-            "We offer a 30-day return policy for unused and unopened items. If you are not satisfied with your purchase, please contact our customer support team to initiate a return. Refunds will be processed within 7-10 business days after we receive the returned item.",
+            "All you have to do is go to the App Store or Google Play Store and search for 'Phantom Wallet'. Download and install the app on your mobile device. Follow the in-app instructions to set up your wallet securely.",
         },
         {
-          question: "How can I contact customer support?",
+          question: "How do I download a What3Words App?",
           answer:
-            "You can contact our customer support team through the 'Contact Us' page on our website. We are available via email, phone, and live chat. Our support hours are Monday to Friday, 9 AM to 5 PM.",
+            "All you have to do is go to the App Store or Google Play Store and search for 'What3Words'. Download and install the app on your mobile device. Follow the in-app instructions to set up your account and start using the app.",
         },
       ],
     },
     header: {
-      headline: "Your Ultimate App for Every Need",
+      headline: "The American TikTok Shop for Creators and Careers",
       subtitle:
-        "Streamline your tasks, boost your productivity, and accomplish more every day. Unlock a world of possibilities with our cutting-edge mobile application.",
+        "Instead of buying Google/Facebook ads, let us pay creators for viral TikTok UGC reviews and 11-second ads. Get hired with one-minute reel applications.",
       screenshots: [
         "/screenshots/1.webp",
         "/screenshots/2.webp",
         "/screenshots/3.webp",
       ],
-      rewards: ["App of the year \n 1st", "Product of the day"],
+      rewards: ["TikTok challege of the year", "Product of the day"],
       usersDescription: "100+ people already using the app",
       headlineMark: [1, 3],
     },
     pricing: {
       id: "pricing",
-      title: "Pricing",
-      subtitle: "Flexible costs to meet your budget",
+      title: "Get Verified, Get Paid 💸",
+      subtitle: "Level up your creator game with perks that actually slap",
       actionText: "Download the app",
       plans: [
         {
-          title: "Basic Plan",
+          title: "🎯 Affiliate",
           price: "$9.99/month",
-          rows: ["Access to basic features", "Email support", "1 GB storage"],
+          rows: [
+            "👑 Get that verified affiliate badge", 
+            "📊 Get real UGC analytics",
+            "🚀 Early access to Chief creator collabs",
+          ],  
         },
         {
-          title: "Standard Plan",
-          price: "$19.99/month",
+          title: "✨ Creator Gawd",
+          price: "$99/month",
           featured: true,
           rows: [
-            "Access to all basic features",
-            "Priority email support",
-            "10 GB storage",
-            "Monthly webinars",
-          ],
+            "🌟 Fully verified creator status",
+            "🎤 Custom ReelView Mic (so fire)", 
+            "🔗 Blockchain ID flex",
+            "🛍️ Linktree shop feature",
+            "⚡ Priority brand matching",
+          ], 
         },
         {
-          title: "Premium Plan",
-          price: "$29.99/month",
+          title: "⚡ Chief Creator", 
+          price: "$222/month",
           rows: [
-            "Access to all features",
-            "24/7 support",
-            "100 GB storage",
-            "Weekly webinars",
-            "Exclusive content",
-          ],
+            "✅ All Creator Gawd perks",
+            "👻 Phantom wallet verified", 
+            "📱 4 TikTok posts/month",
+            "🔥 TikTok ad boost",
+            "👔 Dedicated success manager",
+            "🏆 Affiliate challenges"
+          ], 
         },
       ],
     },
@@ -318,7 +317,7 @@ If you have any questions or concerns about this Privacy Policy, please contact 
 [Email Address]  
 [Phone Number (optional)]
 
-`,
+`
   },
   cookiesPolicy: {
     seo: {
@@ -390,7 +389,8 @@ If you have any questions or concerns about our use of cookies, please contact u
 [Your Contact Information]  
 [Email Address]  
 [Phone Number (optional)]
-`,
+
+`
   },
   termsAndConditions: {
     seo: {
@@ -466,9 +466,9 @@ If you have any questions or concerns about these Terms, please contact us at:
 [Your Company Name]  
 [Your Contact Information]  
 [Email Address]  
-[Phone Number (optional)]
-`,
-  },
+[Phone Number (optional)]`
+
+  }
 };
 
 export default templateConfig;

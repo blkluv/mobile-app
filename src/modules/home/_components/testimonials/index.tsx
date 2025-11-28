@@ -1,5 +1,4 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import AnimatedText from "../../../../components/animatedText";
 import { motion } from "framer-motion";
 import { useContext } from "react";
@@ -43,22 +42,39 @@ function Testimonials() {
           }}
           slidesPerView={1}
         >
-          {testimonials.cards.map(({ name, comment }, index) => (
+          {testimonials.cards.map(({ qrCode, company, role, location }, index) => (
             <SwiperSlide className="!h-[22rem] my-2" key={index}>
               <div className="h-full card shadow bg-primary">
-                <div className="p-6 card-body">
-                  <div className="flex mb-4">
-                    {Array(5)
-                      .fill(0)
-                      .map((_, index) => (
-                        <div
-                          key={index}
-                          className="h-6 w-6 mask mask-star-2 bg-primary-content"
-                        />
-                      ))}
+                <div className="p-6 card-body items-center text-center">
+                  {/* Job QR Code Image */}
+                  <div className="w-32 h-32 mb-4 bg-white rounded-lg p-2">
+                    <img 
+                      src={qrCode} 
+                      alt={`Apply for ${role} at ${company}`}
+                      className="w-full h-full object-contain"
+                    />
                   </div>
-                  <p className="text-primary-content/90">{comment}</p>
-                  <h2 className="card-title text-primary-content">{name}</h2>
+                  
+                  {/* Company and Role Info */}
+                  <h2 className="card-title text-primary-content mb-1 text-lg">
+                    {company}
+                  </h2>
+                  <p className="text-primary-content/90 font-semibold mb-1">
+                    {role}
+                  </p>
+                  <p className="text-primary-content/70 text-sm mb-4">
+                    📍 {location}
+                  </p>
+                  
+                  {/* Application CTA */}
+                  <div className="mt-auto">
+                    <p className="text-primary-content/80 text-sm mb-2">
+                      Scan to apply with 1-minute reel
+                    </p>
+                    <div className="badge badge-accent badge-sm">
+                      🎬 Video Application
+                    </div>
+                  </div>
                 </div>
               </div>
             </SwiperSlide>
