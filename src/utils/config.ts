@@ -53,9 +53,9 @@ const templateConfig: TemplateConfig = {
     subtitle:
       "Turn your cell phone to a LUMEE BOOTH. Stay tapped in, see 100% follower updates in real time with no algorithms.",
     screenshots: [
-      "/screenshots/1.webp",
-      "/screenshots/2.webp",
-      "/screenshots/3.webp",
+      "/screenshots/1.jpg",
+      "/screenshots/2.jpg",
+      "/screenshots/3.jpg",
     ],
   },
   home: {
@@ -65,7 +65,7 @@ const templateConfig: TemplateConfig = {
     },
     testimonials: {
       id: "testimonials",
-      title: "Apply Now",
+      title: "Show N Tell",
       subtitle: "Scan QR codes to apply with 1-minute video reels",
       cards: [
       {
@@ -89,12 +89,12 @@ const templateConfig: TemplateConfig = {
       ],
     },
     partners: {
-      title: "As seen on",
+      title: "TikTok Official Partner",
       logos: [
         "/misc/companies/apple.svg",
-        "/misc/companies/aws.svg",
+        "/misc/companies/tiktok-marketing-agency.svg",
         "/misc/companies/google.svg",
-        "/misc/companies/tumblr.svg",
+        "/misc/companies/tiktok-shop-affiliate-agency.svg",
       ],
     },
     howItWorks: {
@@ -199,21 +199,21 @@ const templateConfig: TemplateConfig = {
       ],
     },
     header: {
-      headline: "The American TikTok Shop for Creators and Careers",
+      headline: "First Proof-of-Service Social Marketplace",
       subtitle:
-        "Instead of buying Google/Facebook ads, let us pay creators for viral TikTok UGC reviews and 11-second ads. Get hired with one-minute reel applications.",
+        "Book creators who keep it reel with TikTok UGC reviews. They upload proof. We verify it. Payment released from escrow - instantly.",
       screenshots: [
         "/screenshots/1.webp",
         "/screenshots/2.webp",
         "/screenshots/3.webp",
       ],
-      rewards: ["TikTok challege of the year", "Product of the day"],
-      usersDescription: "100+ people already using the app",
+      rewards: ["TikTok Reviews", "Verified Purpose Impact", "UGC Analytics"],
+      usersDescription: "1,000+ Reel Services Booked",
       headlineMark: [1, 3],
     },
     pricing: {
       id: "pricing",
-      title: "Get Verified, Get Paid 💸",
+      title: "Get Verified, Get Paid",
       subtitle: "Level up your creator game with perks that actually slap",
       actionText: "Download the app",
       plans: [
