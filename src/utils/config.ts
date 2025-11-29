@@ -203,9 +203,9 @@ const templateConfig: TemplateConfig = {
       subtitle:
         "Book creators who keep it reel with TikTok UGC reviews. They upload proof. We verify it. Payment released from escrow - instantly.",
       screenshots: [
-        "/screenshots/1.webp",
-        "/screenshots/2.webp",
-        "/screenshots/3.webp",
+        "/screenshots/1.jpg",
+        "/screenshots/2.jpg",
+        "/screenshots/3.jpg",
       ],
       rewards: ["TikTok Reviews", "Verified Purpose Impact", "UGC Analytics"],
       usersDescription: "1,000+ Reel Services Booked",
