@@ -53,9 +53,9 @@ const templateConfig: TemplateConfig = {
     subtitle:
       "Turn your cell phone to a LUMEE BOOTH. Stay tapped in, see 100% follower updates in real time with no algorithms.",
     screenshots: [
-      "/screenshots/1.jpg",
-      "/screenshots/2.jpg",
       "/screenshots/3.jpg",
+      "/screenshots/2.jpg",
+      "/screenshots/1.jpg",
     ],
   },
   home: {
